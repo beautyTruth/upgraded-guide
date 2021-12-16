@@ -39,9 +39,17 @@ let/const -> originally in an uninitialized state
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
 
-const number;
+// const number;
 
-number = 1;
-number = 2;
+// number = 1;
+// number = 2;
 
-console.log(number);
+// console.log(number);
+
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+// compilation and execution
+
+// or
+
+// parsing and execution
