@@ -28,12 +28,13 @@ let/const -> originally in an uninitialized state
 //   let name = "Rosie";
 // }
 
-// var name = "Chadwick";
+var name = "Chadwick";
 
-// {
-//   console.log(name);
-//   const name = "Rosie";
-// }
+{
+  // console.log(name);
+  const name = "Rosie";
+  console.log(name);
+}
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone
 
@@ -53,3 +54,29 @@ let/const -> originally in an uninitialized state
 // or
 
 // parsing and execution
+
+/*
+First, the variable is declared, then it is initialized when it is assigned a value through an expression
+*/
+
+/* 
+
+let booger;
+const boobie;
+
+they are declared but uninitialized
+
+let booger = "poopie";
+const boobie = 2;
+
+they are now both declared and initialized
+
+var dumbass;
+
+the var starts off as undefined
+
+var dumbass = "joe mamma";
+
+the var is now defined
+
+*/

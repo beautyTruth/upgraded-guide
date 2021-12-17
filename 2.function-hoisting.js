@@ -35,3 +35,7 @@ movie(); // NO Error
 //   console.log("The Good, the Bad and the Ugly");
 // };
 // movie(); // NO Error
+
+/*
+Basically, function expressions are unable to be called before they are expressed; function declarations are able to be called before they are declared because they are able to be hoisted
+*/
