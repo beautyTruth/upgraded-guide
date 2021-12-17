@@ -8,30 +8,30 @@ In the Execution Stage -> first identifier then what it points to.
 
 */
 
-// book();
-// // movie(); // typeError
-
-// function book() {
-//   console.log("The Great Gatsby");
-// }
-
-// var movie = function () {
-//   console.log("The Good, the Bad and the Ugly");
-// };
-// movie(); // NO Error
-
-// The Hoisting Misconception
+book();
+movie(); // typeError
 
 function book() {
   console.log("The Great Gatsby");
 }
 
-var movie;
-
-book();
-// movie(); // typeError
-
-movie = function () {
+var movie = function () {
   console.log("The Good, the Bad and the Ugly");
 };
 movie(); // NO Error
+
+// The Hoisting Misconception
+
+// function book() {
+//   console.log("The Great Gatsby");
+// }
+
+// var movie;
+
+// book();
+// // movie(); // typeError
+
+// movie = function () {
+//   console.log("The Good, the Bad and the Ugly");
+// };
+// movie(); // NO Error
